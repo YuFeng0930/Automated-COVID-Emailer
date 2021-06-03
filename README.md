@@ -2,7 +2,7 @@
 
 
 
-Using Python modules and extensions, the program runs through the database to find passengers on the same flight as a suspected COVID case and sends templated email notifying the passengers via SMTP connection to the company mail server (requires account log in).
+Using Python modules and extensions, the app runs through the database to find passengers on the same flight as a suspected COVID case and sends templated email notifying the passengers via SMTP connection to the company mail server (requires account log in).
 
 There are three different messages depending at the vicinity of the passenger and the suspected case:
 - Within one seat - We regret to inform you that you've been within immediate vicinity with a suspected case of COVID-19.
